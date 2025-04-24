@@ -1,0 +1,39 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "ORDER DATA SERVICE API",
+      "description": "ORDER DATA SERVICE API",
+      "license": {
+        "name": "Apache 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+      }
+    },
+    "host": "http://127.0.0.1:2222",
+    "basePath": "/globalhmis-order/v1",
+    "tags": [      {
+        "name": "ORDER",
+        "description": "API for Managing the master data"
+      }
+    ],
+    "ratelimiting":{
+      "limit": 20,
+      "windowMs": 60000     
+    },
+    "schemes": ["http", "https"],
+    "consumes": ["application/json", "multipart/form-data"],
+    "produces": ["application/json", "application/file"],
+    "paths": {
+      "/message": {
+        "get": {
+          "summary": "Get message",
+          "responses": {
+            "200": {
+              "description": "Successful response"
+            }
+          }
+        }
+      }
+    }
+  }
+  

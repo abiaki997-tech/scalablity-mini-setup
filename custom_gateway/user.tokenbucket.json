@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "123",
+      "x_token": "free-user-token-abc",
+      "is_premium": false,
+      "tokens_balance": 5,
+      "last_refill": 0,
+      "allowed_request": 5,
+      "seconds":3600
+    },
+    {
+      "id": "456",
+      "x_token": "premium-user-token-xyz",
+      "is_premium": true,
+      "tokens_balance": 3,
+      "last_refill": 0,
+      "allowed_request": 1 ,
+      "seconds":30
+    }
+  ]
+}
