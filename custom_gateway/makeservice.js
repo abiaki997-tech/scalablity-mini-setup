@@ -2,7 +2,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const swaggerDir = path.join(__dirname, "..", "swagger");
+const swaggerDir = path.join(__dirname, ".", "swagger");
 const outputFile = path.join(__dirname, "config", "service.js");
 
 const services = [];
