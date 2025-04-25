@@ -32,7 +32,7 @@ services.forEach(({ route, target }) => {
     route,
     ratelimitingservice,
     createProxyMiddleware({
-      target: "http://127.0.0.1:8082",
+      target: "http://haproxy:8082",
       changeOrigin: true,
       pathRewrite: (path, req) => req.originalUrl,
     })

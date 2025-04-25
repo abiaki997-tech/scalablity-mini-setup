@@ -20,4 +20,4 @@ EXPOSE 5000
 # ENV NODE_ENV=production
 
 # Command to run the application
-CMD ["npm","index.js"]
+CMD ["node","index.js"]

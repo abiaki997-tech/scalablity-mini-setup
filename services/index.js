@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 const PORT = 3000;
 const HOST_PORT = process.env.HOST_PORT || "unknown";
-const usersDB = require("../custom_gateway/user.tokenbucket.json");
+// const usersDB = require("../custom_gateway/user.tokenbucket.json");
 const leakyBucket = require("./ratelimiting.leakybucket");
 
 app.use(cors());
