@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: serviceb
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: serviceb
+  template:
+    metadata:
+      labels:
+        app: serviceb
+    spec:
+      containers:
+        - name: serviceb
+          image: serviceb-image:latest
+          ports:
+            - containerPort: 3001
