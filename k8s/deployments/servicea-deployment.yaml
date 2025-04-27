@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: servicea
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: servicea
@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
         - name: servicea
-          image: servicea-image:latest
+          image: servicea
+          imagePullPolicy: Never
           ports:
             - containerPort: 3000
