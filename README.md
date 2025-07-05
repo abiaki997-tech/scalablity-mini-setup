@@ -1,6 +1,6 @@
 # scalablity-mini-setup
 
 <details>
-  <summary>system design topics </summary>
+  <summary>system design projects</summary>
   <summary>ad</summary>
 </details>
