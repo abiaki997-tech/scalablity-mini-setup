@@ -2,5 +2,5 @@
 
 <details>
   <summary>system design topics </summary>
-  <details>ad</details>
+  <summary>ad</summary>
 </details>
