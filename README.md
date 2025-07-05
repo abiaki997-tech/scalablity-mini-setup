@@ -1,8 +1,8 @@
 # scalablity-mini-setup
 
 <details>
-  <summary>system design projects</summary>
-  <summary>DESIGN A RATE LIMITER</summary>
+  <summary>system design projects</summary> 
+  <summary>DESIGN A RATE LIMITER</summary> ## completed
   <summary>DESIGN CONSISTENT HASHING</summary>
   <summary>DESIGN A KEY-VALUE STORE</summary>
   <summary>DESIGN A UNIQUE ID GENERATOR IN
