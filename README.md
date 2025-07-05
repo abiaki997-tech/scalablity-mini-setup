@@ -27,3 +27,5 @@
 |     |                             | Implement Circuit Breaker                                                                   | ⏳ Yet to Start | 🔴 High     |
 | 13  | Architecture Tweaks         | Improve/refactor system design                                                              | ⏳ Yet to Start | 🟡 Medium   |
 | 14  | Docker Compose to GitHub    | Convert to single GitHub project                                                            | ⏳ Yet to Start | 🟢 Low      |
+| 15  | CI/CD - Jeinks              | Learn and apply                                                                             | Yet to Start   | Medium      |
+| :-- | :-------------------------- | :------------------------------------------------------------------------------------------ | :------------- | :---------- |
