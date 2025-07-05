@@ -2,9 +2,9 @@
 
 <details>
   <summary>system design projects</summary>
-  <summary>Design Rate Limiter</summary>
-  <summary>Design a Consistent Hashing</summary>
-  <summary>Design a Key-Value Store</summary>
+  <summary>DESIGN A RATE LIMITER</summary>
+  <summary>DESIGN CONSISTENT HASHING</summary>
+  <summary>DESIGN A KEY-VALUE STORE</summary>
   <summary>DESIGN A UNIQUE ID GENERATOR IN
  DISTRIBUTED SYSTEMS </summary>
 </details>
